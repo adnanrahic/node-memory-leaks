@@ -22,7 +22,7 @@ open -a "Google Chrome" chrome://inspect/#devices
 
 You use the `Allocation instrumentation on timeline` option in this case. Select that radio button and check the `Record stack traces of allocations` checkbox. This will start a live recording of the memory usage.
 
-For this use case, I used `[loadtest](https://www.npmjs.com/package/loadtest)` to run 1000 requests against the sample Express app with a concurrency of 10.
+For this use case, I used [`loadtest`](https://www.npmjs.com/package/loadtest) to run 1000 requests against the sample Express app with a concurrency of 10.
 
 ![Screen Shot 2022-01-26 at 00.27.32.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c6112871-a107-42ad-ba47-fdd1d4acb22a/Screen_Shot_2022-01-26_at_00.27.32.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220208%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220208T203706Z&X-Amz-Expires=86400&X-Amz-Signature=bf677e4c4676cd0329d06667fdde425eec11c915e8ee3120f6e9946487f73516&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen%2520Shot%25202022-01-26%2520at%252000.27.32.png%22&x-id=GetObject)
 
